@@ -15,7 +15,7 @@
     ```
 3. start the project by entering the following command.
     ```bash
-    flutter run lib/app/_/_/interaction/view.blueprint.wrapper/keyboard_attachable/upper_keyboard_view_with_photo_and_send_icon/keyboard.dart -d chrome
+    flutter run lib/app/_/_/interaction/view.blueprint.wrapper/keyboard_attachable/upper_keyboard_view_with_photo_and_send_icon/usage.dart -d chrome
     ```
 
 ## Screenshots
