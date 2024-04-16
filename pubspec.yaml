@@ -3,7 +3,7 @@ description: "upper keyboard view with photo and send icon"
 #publish_to: 'none'
 repository: https://github.com/juneview-songdo/upper_keyboard_view_with_photo_and_send_icon
 
-version: 1.0.2
+version: 1.0.5
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
