@@ -1,20 +1,22 @@
+import 'dart:async';
+
+import 'package:after_layout/after_layout.dart';
 import 'package:flutter/material.dart';
 
-import '../../../main.dart';
+import '../../../../../../../../../../main.dart';
+import 'loading.dart';
 
 String _noteName = "Note";
 
 T _button00 = T("00", onTap: (BuildContext context) async {
-  ////////////////////////////////////////
-  hiveBox.put('key', 123);
-  ////////////////////////////////////////
+  NewLoading.start();
+
+  await Future.delayed(Duration(seconds: 2));
+  NewLoading.stop();
 });
 
 T _button01 = T("01", onTap: (BuildContext context) async {
-  ////////////////////////////////////////
-  int value = hiveBox.get('key');
-  print(value); // 123
-  ////////////////////////////////////////
+  NewLoading.start(seconds: 3);
 });
 
 T _button02 = T("02", onTap: (BuildContext context) async {
